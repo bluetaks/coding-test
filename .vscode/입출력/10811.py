@@ -6,5 +6,5 @@ for _ in range(m):
     temp = numbers[i-1:j]
     temp.reverse()
     numbers[i-1:j] = temp
-print(numbers)
-    
+for x in range(n):
+  print(numbers[x],end=" ")
