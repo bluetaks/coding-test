@@ -3,7 +3,8 @@ start , end = input().split("*")
 for _ in range(n):
     text = input()
     if len(start)+len(end) > len(text):
-        if text.startswith(start) and text.endswith(end):
-            print("DA")
-        else:
-            print("NE")
+        print("NE")
+    elif text.startswith(start) and text.endswith(end):
+        print("DA")
+    else:
+        print("NE")
