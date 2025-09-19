@@ -11,4 +11,4 @@ for i in range(n):
 
 result = sorted(files.items())
 for i in result:
-    print(i)
+    print(*i) # 언패킹
